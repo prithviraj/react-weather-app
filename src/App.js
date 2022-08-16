@@ -50,7 +50,7 @@ class App extends React.Component {
 
   componentDidMount(){
 
-    const weather_api = "http://api.weatherapi.com/v1/current.json?key="+"7ce21f6a45c048f182394213221608&aqi=no";
+    const weather_api = "https://api.weatherapi.com/v1/current.json?key="+"7ce21f6a45c048f182394213221608&aqi=no";
     
     var weather_api_calls = [];
 
